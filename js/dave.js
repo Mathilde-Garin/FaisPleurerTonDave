@@ -96,7 +96,7 @@ var NextAchatOptionPonc4 = 30000; // Prix de départ de l'OptionPonc4
 				
 			$AfficheCompteurLarmes.innerHTML = Math.trunc(VCompteurLarmes);
 			$AfficheNiveauOptionUp1.innerHTML = VNiveauOptionUp1;
-			$AfficheAchatOptionUp1.innerHTML =  NextAchatOptionUp1;
+			$AfficheAchatOptionUp1.innerHTML =  NextAchatOptionUp1 + "<span class=\"tooltiptext\">Augmente le nombre de larmes récolté à chaque clic</span>";
 			$AfficheMultiNbLarmesClic.innerHTML = 'x ' +VMultiLarmes;
 		}
 		else {
@@ -130,7 +130,7 @@ var NextAchatOptionPonc4 = 30000; // Prix de départ de l'OptionPonc4
 			$AfficheCompteurLarmes.innerHTML = Math.trunc(VCompteurLarmes);
 			VNiveauOptionUp2++;
 			$AfficheNiveauOptionUp2.innerHTML = VNiveauOptionUp2;
-			$AfficheAchatOptionUp2.innerHTML = NextAchatOptionUp2;
+			$AfficheAchatOptionUp2.innerHTML = NextAchatOptionUp2 + "<span class=\"tooltiptext\">Récolte automatiquement des larmes chaque seconde</span>";
 						
 			setInterval(plusCompteurLarmes, 1000);
 			$AfficheCompteurLarmes.innerHTML = Math.trunc(VCompteurLarmes);
@@ -177,7 +177,7 @@ var NextAchatOptionPonc4 = 30000; // Prix de départ de l'OptionPonc4
 			$AfficheCompteurLarmes.innerHTML = Math.trunc(VCompteurLarmes);
 			VNiveauOptionUp3++;
 			$AfficheNiveauOptionUp3.innerHTML = VNiveauOptionUp3;
-			$AfficheAchatOptionUp3.innerHTML = NextAchatOptionUp3;
+			$AfficheAchatOptionUp3.innerHTML = NextAchatOptionUp3 + "<span class=\"tooltiptext\">Récolte automatiquement des larmes chaque seconde</span>";
 						
 			setInterval(plusCompteurLarmesOptionUp3, 1000);
 			$AfficheCompteurLarmes.innerHTML = Math.trunc(VCompteurLarmes);
@@ -213,7 +213,7 @@ var NextAchatOptionPonc4 = 30000; // Prix de départ de l'OptionPonc4
 				
 			$AfficheCompteurLarmes.innerHTML = Math.trunc(VCompteurLarmes);
 			$AfficheNiveauOptionUp4.innerHTML = VNiveauOptionUp4;
-			$AfficheAchatOptionUp4.innerHTML = NextAchatOptionUp4;
+			$AfficheAchatOptionUp4.innerHTML = NextAchatOptionUp4 + "<span class=\"tooltiptext\">Augmente le nombre de larmes récolté à chaque clic</span>";
 			$AfficheMultiNbLarmesClic.innerHTML = 'x ' +VMultiLarmes;
 		}
 		else {
@@ -247,7 +247,7 @@ var NextAchatOptionPonc4 = 30000; // Prix de départ de l'OptionPonc4
 			$AfficheCompteurLarmes.innerHTML = Math.trunc(VCompteurLarmes);
 			VNiveauOptionUp5++;
 			$AfficheNiveauOptionUp5.innerHTML = VNiveauOptionUp5;
-			$AfficheAchatOptionUp5.innerHTML = NextAchatOptionUp5;
+			$AfficheAchatOptionUp5.innerHTML = NextAchatOptionUp5 + "<span class=\"tooltiptext\">Récolte automatiquement des larmes chaque seconde</span>";
 
 						
 			setInterval(plusCompteurLarmesOptionUp5, 1000);
@@ -287,7 +287,7 @@ var NextAchatOptionPonc4 = 30000; // Prix de départ de l'OptionPonc4
 			$AfficheCompteurLarmes.innerHTML = Math.trunc(VCompteurLarmes);
 			VNiveauOptionUp6++;
 			$AfficheNiveauOptionUp6.innerHTML = VNiveauOptionUp6;
-			$AfficheAchatOptionUp6.innerHTML = NextAchatOptionUp6;
+			$AfficheAchatOptionUp6.innerHTML = NextAchatOptionUp6 + "<span class=\"tooltiptext\">Récolte automatiquement des larmes chaque seconde</span>";
 						
 			setInterval(plusCompteurLarmesOptionUp6, 1000);
 			$AfficheCompteurLarmes.innerHTML = Math.trunc(VCompteurLarmes);
@@ -319,7 +319,7 @@ var NextAchatOptionPonc4 = 30000; // Prix de départ de l'OptionPonc4
 				
 			$AfficheCompteurLarmes.innerHTML = Math.trunc(VCompteurLarmes);
 			$AfficheNiveauOptionUp7.innerHTML = VNiveauOptionUp7;
-			$AfficheAchatOptionUp7.innerHTML = NextAchatOptionUp7;
+			$AfficheAchatOptionUp7.innerHTML = NextAchatOptionUp7 + "<span class=\"tooltiptext\">Augmente le nombre de larmes récolté à chaque clic</span>";
 			$AfficheMultiNbLarmesClic.innerHTML = 'x ' +VMultiLarmes;
 		}
 		else {
@@ -349,7 +349,7 @@ var NextAchatOptionPonc4 = 30000; // Prix de départ de l'OptionPonc4
 			$AfficheCompteurLarmes.innerHTML = Math.trunc(VCompteurLarmes);
 			VNiveauOptionUp8++;
 			$AfficheNiveauOptionUp8.innerHTML = VNiveauOptionUp8;
-			$AfficheAchatOptionUp8.innerHTML = NextAchatOptionUp8;
+			$AfficheAchatOptionUp8.innerHTML = NextAchatOptionUp8 + "<span class=\"tooltiptext\">Récolte automatiquement des larmes chaque seconde</span>";
 						
 			setInterval(plusCompteurLarmesOptionUp8, 1000);
 			$AfficheCompteurLarmes.innerHTML = Math.trunc(VCompteurLarmes);
@@ -388,11 +388,11 @@ var NextAchatOptionPonc4 = 30000; // Prix de départ de l'OptionPonc4
 			$AfficheNiveauOptionUp2.innerHTML = VNiveauOptionUp2;
 			$AfficheNiveauOptionUp3.innerHTML = VNiveauOptionUp3;
 			$AfficheNiveauOptionUp4.innerHTML = VNiveauOptionUp4;
-			$AfficheAchatOptionUp1.innerHTML = NextAchatOptionUp1;
-			$AfficheAchatOptionUp2.innerHTML = NextAchatOptionUp2;
-			$AfficheAchatOptionUp3.innerHTML = NextAchatOptionUp3;
-			$AfficheAchatOptionUp4.innerHTML = NextAchatOptionUp4;
-			$AfficheOptionPonc1.innerHTML = NextAchatOptionPonc1;
+			$AfficheAchatOptionUp1.innerHTML = NextAchatOptionUp1 + "<span class=\"tooltiptext\">Augmente le nombre de larmes récolté à chaque clic</span>";
+			$AfficheAchatOptionUp2.innerHTML = NextAchatOptionUp2 + "<span class=\"tooltiptext\">Récolte automatiquement des larmes chaque seconde</span>";
+			$AfficheAchatOptionUp3.innerHTML = NextAchatOptionUp3 + "<span class=\"tooltiptext\">Récolte automatiquement des larmes chaque seconde</span>";
+			$AfficheAchatOptionUp4.innerHTML = NextAchatOptionUp4 + "<span class=\"tooltiptext\">Augmente le nombre de larmes récolté à chaque clic</span>";
+			$AfficheOptionPonc1.innerHTML = NextAchatOptionPonc1 + "<span class=\"tooltiptext\">Oh non la machine à café est en panne ! Comment Dave va-t-il tenir toute la journée ?... <Br><Br>Achetez cette option et augmentez ainsi les 4 premiers langages d'1 niveau !</span>";
 		}
 
 		else {
@@ -411,7 +411,7 @@ var NextAchatOptionPonc4 = 30000; // Prix de départ de l'OptionPonc4
 			$AfficheCompteurLarmes.innerHTML = Math.trunc(VCompteurLarmes);
 			window.open('https://youtu.be/gG5abwgyX7k?t=77');
 			NextAchatOptionPonc2 = NextAchatOptionPonc2 * 2;
-			$AfficheOptionPonc2.innerHTML = NextAchatOptionPonc2;
+			$AfficheOptionPonc2.innerHTML = NextAchatOptionPonc2 + "<span class=\"tooltiptext\">L'ami développeur de Dave n'a vraiment rien compris, il n'arrête pas de déranger Dave dans son travail. <Br><Br>Débloquez cette option surprise !</span>";
 		}
 		else {
 			alert("Gagnez plus de larmes pour pouvoir acheter l'option");
@@ -440,11 +440,11 @@ var NextAchatOptionPonc4 = 30000; // Prix de départ de l'OptionPonc4
 			$AfficheNiveauOptionUp6.innerHTML = VNiveauOptionUp6;
 			$AfficheNiveauOptionUp7.innerHTML = VNiveauOptionUp7;
 			$AfficheNiveauOptionUp8.innerHTML = VNiveauOptionUp8;
-			$AfficheAchatOptionUp5.innerHTML = NextAchatOptionUp5;
-			$AfficheAchatOptionUp6.innerHTML = NextAchatOptionUp6;
-			$AfficheAchatOptionUp7.innerHTML = NextAchatOptionUp7;
-			$AfficheAchatOptionUp8.innerHTML = NextAchatOptionUp8;
-			$AfficheOptionPonc3.innerHTML = NextAchatOptionPonc3;
+			$AfficheAchatOptionUp5.innerHTML = NextAchatOptionUp5 + "<span class=\"tooltiptext\">Récolte automatiquement des larmes chaque seconde</span>";
+			$AfficheAchatOptionUp6.innerHTML = NextAchatOptionUp6 + "<span class=\"tooltiptext\">Récolte automatiquement des larmes chaque seconde</span>";
+			$AfficheAchatOptionUp7.innerHTML = NextAchatOptionUp7 + "<span class=\"tooltiptext\">Augmente le nombre de larmes récolté à chaque clic</span>";
+			$AfficheAchatOptionUp8.innerHTML = NextAchatOptionUp8 + "<span class=\"tooltiptext\">Récolte automatiquement des larmes chaque seconde</span>";
+			$AfficheOptionPonc3.innerHTML = NextAchatOptionPonc3 + "<span class=\"tooltiptext\">... Ô désespoir !<Br><Br>Coupure d'électricité, plus d'Internet. Et Dave n'avait pas sauvegardé son travail...<Br><Br>Cette option augmente les 4 derniers langages d'1 niveau !</span>";
 		}
 		else {
 			alert("Gagnez plus de larmes pour pouvoir acheter l'option");
@@ -462,7 +462,7 @@ var NextAchatOptionPonc4 = 30000; // Prix de départ de l'OptionPonc4
 			$AfficheCompteurLarmes.innerHTML = Math.trunc(VCompteurLarmes);
 
 			NextAchatOptionPonc4 = NextAchatOptionPonc4 * 2;
-			$AfficheOptionPonc4.innerHTML = NextAchatOptionPonc4;
+			$AfficheOptionPonc4.innerHTML = NextAchatOptionPonc4 + "<span class=\"tooltiptext\">Les formateurs débarquent dans le bureau de Dave pour lui donner plein de nouveaux TP sur des technologies qu'il ne connait pas ! Dave se met en PLS... <Br><Br>Une carte mystère aléatoire va se lancer.</span>";
 			EventRandom();
 		}
 		else {
