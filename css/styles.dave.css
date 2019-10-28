@@ -68,11 +68,26 @@ body {
 
 /* -------- OPTIONS A UPGRADER EN HAUT A DROITE -------- */
 
+#charger, #sauvegarde {
+	margin-top: 10px;
+	background-color: #23AD93;
+	font-family: 'Calibri';
+	float: right;
+	margin-right: 20px;
+	border : #23AD93;
+	padding: 5px;
+	font-size: 14px;
+}
+
+#charger:hover, #sauvegarde:hover {
+	background-color: #EE592B;
+}
+
 h1 {
 	font-size: 35px;
 	margin-top: 15px;
 	margin-bottom: 10px;
-	text-align: center;
+	margin-left: 150px;
 	color: #D3D3D3;
 }
 

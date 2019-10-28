@@ -67,7 +67,7 @@ function reload(){
 	NextAchatOptionUp1 = parseInt (localStorage.getItem("NextAchatOptionUp1"));
 	VNiveauOptionUp1 = parseInt (localStorage.getItem("VNiveauOptionUp1"));
 	NextAchatOptionUp2 = parseInt (localStorage.getItem("NextAchatOptionUp2"));
-	VNiveauOptionUp2 = parseInt (localStorage.getItem("VNiveauOptionUp1"));
+	VNiveauOptionUp2 = parseInt (localStorage.getItem("VNiveauOptionUp2"));
 	NextAchatOptionUp3 = parseInt (localStorage.getItem("NextAchatOptionUp3"));
 	VNiveauOptionUp3 = parseInt (localStorage.getItem("VNiveauOptionUp3"));
 	NextAchatOptionUp4 = parseInt (localStorage.getItem("NextAchatOptionUp4"));
@@ -113,7 +113,7 @@ function reload(){
 
 
 	// RELANCE AUTOCLIC
-	for (var i = 0; i < VNiveauOptionUp2; i++) {
+	for (var i = 1; i < VNiveauOptionUp2; i++) {
 		setInterval(plusCompteurLarmes, 1000);
 	}
 
@@ -135,35 +135,35 @@ function reload(){
 
 
 	// BOUTONS DISABLED
-	if (VNiveauOptionUp1 > 1) {
+	if (VNiveauOptionUp1 > 2) {
 		$AfficheAchatOptionUp2.disabled = false; // Déverrouille OptionUp2
 	}
-	if (VNiveauOptionUp2 > 3) {
+	if (VNiveauOptionUp2 > 4) {
 		$AfficheAchatOptionUp3.disabled = false; // Déverrouille OptionUp3
 	}
-	if ((VNiveauOptionUp3 > 3) && (VNiveauOptionUp2 > 8)) {
+	if ((VNiveauOptionUp3 > 4) && (VNiveauOptionUp2 > 9)) {
 		$AfficheAchatOptionUp4.disabled = false; // Déverrouille OptionUp4
-		}
-	if (VNiveauOptionUp4 > 4 && VNiveauOptionUp1 > 8) {
+	}
+	if (VNiveauOptionUp4 > 5 && VNiveauOptionUp1 > 9) {
 		$AfficheAchatOptionUp5.disabled = false; // Déverrouille OptionUp5
 	}
-	if (VNiveauOptionUp3 > 10 && VNiveauOptionUp5 > 4) {
+	if (VNiveauOptionUp3 > 11 && VNiveauOptionUp5 > 5) {
 		$AfficheAchatOptionUp6.disabled = false; // Déverrouille OptionUp6
-		}
-	if (VNiveauOptionUp5 > 13 && VNiveauOptionUp6 > 5) { 
+	}
+	if (VNiveauOptionUp5 > 14 && VNiveauOptionUp6 > 6) { 
 		$AfficheAchatOptionUp7.disabled = false; // Déverrouille OptionUp7
-		}
-	if (VNiveauOptionUp7 > 8 && VNiveauOptionUp2 > 13) {
+	}
+	if (VNiveauOptionUp7 > 9 && VNiveauOptionUp2 > 14) {
 		$AfficheAchatOptionUp8.disabled = false; // Déverrouille OptionUp8
-		}
+	}
 	if (VNiveauOptionUp4 > 1) {
 		$AfficheOptionPonc1.disabled = false; // Déverrouille OptionPonc1
-		}
-	if (VNiveauOptionUp2 > 10) {
+	}
+	if (VNiveauOptionUp2 > 8) {
 		$AfficheOptionPonc2.disabled = false; // Déverrouille OptionPonc2
-		}
+	}
 	if (VNiveauOptionUp8 > 1) {
 		$AfficheOptionPonc3.disabled = false; // Déverrouille OptionPonc3
-		}
+	}
 
 }
