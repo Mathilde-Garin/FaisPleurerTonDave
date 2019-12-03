@@ -31,15 +31,15 @@ body {
 	background-size: cover;
 	background-position: center;
 	display: flex;
+	justify-content: center;
 }
 
 /* Bouton à cliquer */
 #clicker {
-	z-index: 1;
 	width: 120px;
 	position: absolute;
 	bottom: 32vh;
-	left: 17vw;
+	cursor: pointer;
 }
 
 #clicker:active {
@@ -70,13 +70,14 @@ body {
 
 #charger, #sauvegarde {
 	margin-top: 10px;
-	background-color: #23AD93;
-	font-family: 'Calibri';
+	background-color: #D3D3D3;
+	font-family: 'Calibri' bold;
 	float: right;
 	margin-right: 20px;
 	border : #23AD93;
 	padding: 5px;
 	font-size: 14px;
+	cursor: pointer;
 }
 
 #charger:hover, #sauvegarde:hover {
@@ -100,18 +101,17 @@ h2{
 
 /* Bloc AllOptionUP & AllOptionsPonc */
 #AllOptions {
-	width: 60vw;
+	width: 60%;
 	height: 94vh;
 	display: flex;
 	flex-direction: column;
 	padding-left: 10px;
 	background-image: url(../images/back2.jpg);
-
 }
 
 /* Bloc de toutes les options à upgrader */
 #AllOptionUp {
-	height: 60vh;
+	height: 60%;
 }
 
 /* Tableau OptionUp */
@@ -162,11 +162,13 @@ tbody td {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	cursor: pointer;
 }
 
 #Niveaux td button:disabled {
 	background-color: grey;
 	color: black;
+	cursor: default;
 }
 
 #Niveaux td button p {
@@ -193,8 +195,8 @@ tbody td {
 /* Boutons des OptionPonc */
 
 #NiveauxPonc {
-	height: 5vh;
-	width: 15vh;
+	height: 5%;
+	width: 15%;
 }
 
 #NiveauxPonc td button {
@@ -208,6 +210,7 @@ tbody td {
 	height: 100%;
 	font-family: "CreamPeach";
 	font-size: 16px;
+	cursor: pointer;
 }
 
 #NiveauxPonc td button:active {
@@ -217,6 +220,7 @@ tbody td {
 #NiveauxPonc td button:disabled {
 	background-color: grey;
 	color: black;
+	cursor: default;
 }
 
 /* ------------------------ TOOLTIP ------------------------ */
@@ -294,30 +298,18 @@ tbody td {
 		border: 1px solid #888;
 		width: 30%; /* Could be more or less, depending on screen size */
 	}
-	​
-/* The Close Button */
-	.close {
-		float: right;
-		font-size: 28px;
-		font-weight: bold;
-	}
-	​
-	.close:hover,
-	.close:focus {
-		text-decoration: none;
-		cursor: pointer;
-	}
+
 
 /* Images Modal*/
 
-#imgModal {
-	width: 300px;
-	text-align: center;
-	padding-top: 10px;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+	#imgModal {
+		width: 300px;
+		text-align: center;
+		padding-top: 10px;
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
 
 
 /* --------------------- FOOTER --------------------- */

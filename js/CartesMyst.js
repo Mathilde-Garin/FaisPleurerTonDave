@@ -14,23 +14,28 @@ var VModalCarteMyst6 = document.getElementById("ModalCarteMyst6");
 
 // Modale 1
 
-var span = document.getElementsByClassName("close")[0];
-
-
 function Modal(VModalCarteMyst){
 	function TexteModal() {
 		VModalCarteMyst.style.display = "block";
 	}
+
 	TexteModal()
-	span.onclick = function() {
-		VModalCarteMyst.style.display = "none";
-	}
+
 	window.onclick = function(event) {
 		if (event.target == VModalCarteMyst) {
 			VModalCarteMyst.style.display = "none";
 		} 
 	}
 }
+
+	function fermeture() {
+		VModalCarteMyst1.style.display = "none";
+		VModalCarteMyst2.style.display = "none";
+		VModalCarteMyst3.style.display = "none";
+		VModalCarteMyst4.style.display = "none";
+		VModalCarteMyst5.style.display = "none";
+		VModalCarteMyst6.style.display = "none";
+	}
 
 //Lancer un évènement aléatoire
 

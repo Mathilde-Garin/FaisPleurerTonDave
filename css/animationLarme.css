@@ -4,7 +4,6 @@
 	width: 30px;
 	height: 100px;
 	padding-top: 38.5vh;
-	padding-left: 16.75vw;
 }
 
 #positionLarmeDroite {
@@ -12,7 +11,7 @@
 	height: 100px;
 	float: right;
 	padding-top: 38.5vh;
-	padding-left: 65px;
+	padding-left: 50px;
 }
 
 #imgLarme {
